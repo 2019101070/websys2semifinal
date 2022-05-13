@@ -1,8 +1,8 @@
 <?Php
-$config = array('host'=>'localhost',
-				'username'=>'root',
-				'password'=>'p@ssw0rD',
-				'database'=>'registration');
+$config = array('host'=>'sql6.freesqldatabase.com',
+				'username'=>'rootsql6491985',
+				'password'=>'lAPuIT3jcm',
+				'database'=>'sql6491985');
 $db = new mysqli($config['host'],
 				 $config['username'],
 				 $config['password'],
