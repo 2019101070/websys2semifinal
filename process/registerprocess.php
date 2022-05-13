@@ -23,7 +23,7 @@
 			$create=$a->register($name, $email, $specifictime, $classdetails, $gender);
 			//$create=crudDAO::create($lname, $fname, $username, $password, $email);	use only for static method
 			if($create){
-				header('location: ../pages/registration.php');	
+				header('location:../pages/registration.php');	
 			}
 			else{
 				echo "Error saving to the database!";

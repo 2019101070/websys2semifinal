@@ -47,5 +47,19 @@
                     return false;
                 }
             }
+            public function update($id,$name,$email,$specifictime,$classdetails,$gender)
+            {
+                global $db;
+                $sql="UPDATE registration_info SET name='$name',email='$email',specifictime='$specifictime',classdetails='$classdetails',gender='$gender'WHERE id='$id'";
+                $result=$db->query($sql);
+                if($result)
+                {
+                   return $result;
+                }
+                else
+                {
+                    return false;
+                }
+            }
         }
 ?>
