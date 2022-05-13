@@ -6,7 +6,7 @@
    
    <body>
    
-      <h2>Tutorials Point Absolute classes registration</h2>
+      <h2>Class Registration</h2>
       
       <form method = "post" action = "../process/registerprocess.php">
          <table>
@@ -27,7 +27,7 @@
             
             <tr>
                <td>Class details:</td>
-               <td><textarea name = "classdetails" rows = "5" cols = "40"></textarea></td>
+               <td><textarea name = "classdetails" rows = "4" cols = "30"></textarea></td>
             </tr>
             
             <tr>

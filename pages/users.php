@@ -29,7 +29,8 @@
                     echo '<td>'.$value['classdetails'].'</td>';
                     echo '<td>'.$value['gender'].'</td>';
                     echo '<td><a href ="../pages/edit.php?id='.$value['id'].'">Edit</a></td>';
-                    echo '<td><a href ="">Delete</a></td>';
+                    echo '<td><a href="../pages/deleteprocess.php?id='.$value['id'].'">Delete</a></td>';
+                    echo '</tr>';
 
                 }
                 ?>
