@@ -13,5 +13,17 @@
                     return false;
                 }
             }
+            public function display(){
+                global $db;
+
+                $sql="SELECT * FROM registration_info";
+                $result=$db->query($sql);
+                if($result){
+                    return $result;
+                }
+                else
+                return false;
+                }
+            }
         }
 ?>
