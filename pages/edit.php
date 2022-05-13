@@ -41,8 +41,8 @@
             }
         }
         ?>
-        <br>
-        <input type="submit" name="submit" value="Update">
+        <br><br>
+        <button class="btn" type="submit" name="Update">Update</button>
     </form>
 </body>
 </html>
